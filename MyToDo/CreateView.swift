@@ -5,10 +5,9 @@
 //  Created by Godwin IE on 26/02/2024.
 //
 
-import SwiftData
 import SwiftUI
 
-struct CreateView: View {
+struct CreateTodoView: View {
     
     @Environment(\.dismiss) var dismiss
     @Environment(\.modelContext) var context
@@ -16,9 +15,10 @@ struct CreateView: View {
     @State private var item = ToDoItem()
     
     var body: some View {
-        List{
-            TextField("Name", text: .constant(""))
-            DatePicker("Choose a date", selection: $item.timeStamp)
+        List {
+            TextField("Name", text: $item.title)
+            DatePicker("Choose a date",
+                       selection: $item.timeStamp)
             Toggle("Important?", isOn: $item.isCritical)
             Button("Create") {
                 withAnimation {
@@ -30,8 +30,7 @@ struct CreateView: View {
         .navigationTitle("Create ToDo")
     }
 }
-
 #Preview {
-    CreateView()
+    CreateTodoView()
         .modelContainer(for: ToDoItem.self)
 }

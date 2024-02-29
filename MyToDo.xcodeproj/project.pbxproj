@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1CE76C2B8EAD4700C1266C /* UpdateToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1CE76B2B8EAD4700C1266C /* UpdateToDoView.swift */; };
 		CE7418642B8CE0B100273190 /* MyToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7418632B8CE0B100273190 /* MyToDoApp.swift */; };
 		CE7418662B8CE0B100273190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7418652B8CE0B100273190 /* ContentView.swift */; };
 		CE7418682B8CE0B400273190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7418672B8CE0B400273190 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1CE76B2B8EAD4700C1266C /* UpdateToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateToDoView.swift; sourceTree = "<group>"; };
 		CE7418602B8CE0B100273190 /* MyToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7418632B8CE0B100273190 /* MyToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDoApp.swift; sourceTree = "<group>"; };
 		CE7418652B8CE0B100273190 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,8 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				CE7418632B8CE0B100273190 /* MyToDoApp.swift */,
-				CE7418752B8CE28900273190 /* CreateView.swift */,
 				CE7418652B8CE0B100273190 /* ContentView.swift */,
+				CE1CE76B2B8EAD4700C1266C /* UpdateToDoView.swift */,
+				CE7418752B8CE28900273190 /* CreateView.swift */,
 				CE7418712B8CE12D00273190 /* ToDoItem.swift */,
 				CE7418672B8CE0B400273190 /* Assets.xcassets */,
 				CE7418692B8CE0B400273190 /* Preview Content */,
@@ -146,6 +149,7 @@
 				CE7418662B8CE0B100273190 /* ContentView.swift in Sources */,
 				CE7418642B8CE0B100273190 /* MyToDoApp.swift in Sources */,
 				CE7418762B8CE28900273190 /* CreateView.swift in Sources */,
+				CE1CE76C2B8EAD4700C1266C /* UpdateToDoView.swift in Sources */,
 				CE7418722B8CE12D00273190 /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
