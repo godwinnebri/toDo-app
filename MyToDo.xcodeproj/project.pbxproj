@@ -14,6 +14,8 @@
 		CE74186B2B8CE0B400273190 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE74186A2B8CE0B400273190 /* Preview Assets.xcassets */; };
 		CE7418722B8CE12D00273190 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7418712B8CE12D00273190 /* ToDoItem.swift */; };
 		CE7418762B8CE28900273190 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7418752B8CE28900273190 /* CreateView.swift */; };
+		CEBD77D12B9135AC0083D533 /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD77D02B9135AC0083D533 /* SampleModel.swift */; };
+		CEBD77D32B9137750083D533 /* SampleCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD77D22B9137750083D533 /* SampleCreateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		CE74186A2B8CE0B400273190 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE7418712B8CE12D00273190 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		CE7418752B8CE28900273190 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		CEBD77D02B9135AC0083D533 /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		CEBD77D22B9137750083D533 /* SampleCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCreateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				CE1CE76B2B8EAD4700C1266C /* UpdateToDoView.swift */,
 				CE7418752B8CE28900273190 /* CreateView.swift */,
 				CE7418712B8CE12D00273190 /* ToDoItem.swift */,
+				CEBD77D02B9135AC0083D533 /* SampleModel.swift */,
+				CEBD77D22B9137750083D533 /* SampleCreateView.swift */,
 				CE7418672B8CE0B400273190 /* Assets.xcassets */,
 				CE7418692B8CE0B400273190 /* Preview Content */,
 			);
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7418662B8CE0B100273190 /* ContentView.swift in Sources */,
+				CEBD77D12B9135AC0083D533 /* SampleModel.swift in Sources */,
 				CE7418642B8CE0B100273190 /* MyToDoApp.swift in Sources */,
+				CEBD77D32B9137750083D533 /* SampleCreateView.swift in Sources */,
 				CE7418762B8CE28900273190 /* CreateView.swift in Sources */,
 				CE1CE76C2B8EAD4700C1266C /* UpdateToDoView.swift in Sources */,
 				CE7418722B8CE12D00273190 /* ToDoItem.swift in Sources */,

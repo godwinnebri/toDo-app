@@ -30,6 +30,7 @@ struct CreateTodoView: View {
         .navigationTitle("Create ToDo")
     }
 }
+
 #Preview {
     CreateTodoView()
         .modelContainer(for: ToDoItem.self)
